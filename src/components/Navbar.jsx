@@ -1,6 +1,28 @@
 import React, { Component } from "react";
+import $ from "jquery";
 class Navbar extends Component {
     render() {
+        window.onscroll = function () {
+            let Coods = $(document).scrollTop();
+            let Nav = $("nav");
+            if (Coods > 50) {
+                Nav.fadeIn("1s").addClass("fixed-top")
+                $("a.navbar-brand img").attr("src", "./assets/img/logo.png")
+                $(".nav-link").css({ "color": "rgba(0,0,0,0.7)", "transition": "all .8s" })
+                $(".fa-shopping-bag").css({ "color": "rgba(0,0,0,0.7)", "transition": "all .8s" })
+                Nav.css({ 'backgroundColor': "white", "transition": "all .8s", })
+                $(".fa-bars").css({ "color": "rgba(255,255,255,0.9)", "transition": "all .5s" })
+
+            }
+            else {
+                Nav.fadeIn('1s').removeClass("fixed-top");
+                Nav.css({ 'backgroundColor': "transparent", "transition": "all .8s" })
+                $("a.navbar-brand img").attr("src", "./assets/img/logo-white.png")
+                $(".nav-link").css({ "color": "rgba(255,255,255,0.9)", "transition": "all .8s" })
+                $(".fa-shopping-bag").css({ "color": "rgba(255,255,255,0.9)", "transition": "all .5s" })
+                $(".fa-bars").css({ "color": "white" })
+            }
+        }
         return (
             <nav className="navbar navbar-expand-md mb-3">
                 <div className="container">

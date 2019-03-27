@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1052" viewBox="0 0 1920 1052">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>                
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+        filter: url(#filter);
+      }
+      #linear-gradient {
+          --color-stop-1: #b51010;
+          --color-stop-2: #ac004b;
+        }
+    </style>
+    <linearGradient id="linear-gradient" x1="1152.844" y1="950" x2="1152.844" y2="-272.719" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="var(--color-stop-1)" />
+
+        <stop offset="100%" stop-color="var(--color-stop-2)" />
+    </linearGradient>
+    <filter id="filter" x="39" y="-277" width="2230" height="1240" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.968" dy="3.881" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood result="flood" flood-opacity="0.24"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M92.447-26.918c2.055-.84-30.735,83.647-41.261,197.457C39.158,284.864,49.394,428.513,102.8,557.906,155.346,687.674,249.68,803.045,389.562,874.521,458.9,910.3,539.238,935.476,621.634,945.436c20.555,2.479,41.184,3.991,61.68,4.441q7.686,0.17,15.344.137t15.274-.27q15.234-.477,30.269-1.8C784.289,944.4,822.931,936.2,859.32,922.6c141.38-55.679,207.93-122.364,268.49-196.48,58.77-73.856,111.59-155.163,183.86-234.029,72.37-79.4,164.07-156.324,303.18-233.747,141.16-78.765,329.69-158.014,644.16-273.353-2.89-179.63-28.23-253.95-92.68-170.581-744.72-.133-1480.118-3.464-1981.442-87.12C145.013-187.7,114.943-106.006,92.447-26.918h0Z"/>
+</svg>

@@ -1,0 +1,40 @@
+nav.navbar {
+    div {
+        button {
+            outline: none;
+
+            i {
+                color: white;
+                outline: none;
+                border: 2px solid rgba($color: #ffffff, $alpha: 0.7);
+                padding: 10px 15px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, .5)
+            }
+        }
+
+        ul {
+            li {
+                outline: none;
+
+                a {
+                    font-family: $HeadFont;
+                    color: white;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    font-size: 15px;
+                    border-bottom: 0px solid;
+                    transition: all 1s;
+                }
+
+                margin: 0 10px;
+
+                i {
+                    color: white;
+                    font-size: 25px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

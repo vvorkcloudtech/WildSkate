@@ -1,0 +1,62 @@
+body {
+    font-family: $ParaFont;
+}
+
+section#Home-container {
+    background-image: url("./assets/img/background-home.svg");
+    min-height: 100vh;
+    max-height: auto;
+    height: auto;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+
+    div.container {
+        div.row {
+            div.HomeText {
+                height: auto;
+                color: white;
+
+                span {
+                    letter-spacing: 1px;
+                    font-family: $HeadFont;
+                }
+
+                h1 {
+                    font-family: $TitFont;
+                    font-size: 50px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    word-spacing: 2px;
+                }
+
+                h5 {
+                    letter-spacing: 1px;
+                    word-spacing: 1px;
+                    font-family: $TitFont;
+                    font-weight: 500;
+                }
+
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    section#Home-container {
+        div.container {
+            div.row {
+                div.HomeText {
+                    padding: 20px 0;
+                    text-align: center;
+                    h1{
+                        margin: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+}

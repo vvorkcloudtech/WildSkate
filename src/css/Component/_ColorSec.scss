@@ -17,6 +17,7 @@ section#ColorSec {
             }
 
             div.TextBox {
+                padding: 20px;
                 height: auto;
                 background-color: rgba(255, 255, 255, 0.7);
                 box-shadow: 0 0 7px rgba($color: #000000, $alpha: .18);
@@ -81,9 +82,11 @@ section#ColorSec {
                 label[for='Blue'] {
                     background-color: rgba(0, 132, 255, 0.9);
                 }
+
                 label[for='JetBlack'] {
                     background-color: rgba(26, 26, 26, 0.9);
                 }
+
                 svg {
                     opacity: 0;
                     position: relative;
@@ -97,6 +100,27 @@ section#ColorSec {
                     transition: all .7s;
                     opacity: 1;
                     z-index: 1;
+                }
+
+                div.lastSec {
+                    width: 100%;
+
+                    span.Price {
+                        font-size: 34px;
+                        margin: 10px 0;
+                    }
+
+                    button {
+                        background-color: #b1082e;
+                        color: white;
+                        font-family: $HeadFont;
+                        padding: 10px 30px;
+                        border: none;
+                        font-size: 15px;
+                        background: linear-gradient(to right, #b51010 0%, #ac004b 100%);
+                        border-radius: 30px;
+                        outline: none;
+                    }
                 }
             }
         }

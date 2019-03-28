@@ -6,9 +6,10 @@ class Navbar extends Component {
             let Coods = $(document).scrollTop();
             let Nav = $("nav");
             if (Coods > 50) {
-                Nav.fadeIn("1s").addClass("fixed-top")
+                Nav.fadeIn("1s").addClass("fixed-top");
+                Nav.css({ "box-shadow": "0px 0px 5px rgba(0,0,0,1)" })
                 $("a.navbar-brand img").attr("src", "./assets/img/logo.png")
-                $(".nav-link").css({ "color": "rgba(0,0,0,0.7)", "transition": "all .8s" })
+                $(".nav-link").css({ "color": "#4B4453", "transition": "all .8s" })
                 $(".fa-shopping-bag").css({ "color": "rgba(0,0,0,0.7)", "transition": "all .8s" })
                 Nav.css({ 'backgroundColor': "white", "transition": "all .8s", })
                 $(".fa-bars").css({ "color": "rgba(255,255,255,0.9)", "transition": "all .5s" })
@@ -19,6 +20,7 @@ class Navbar extends Component {
                 Nav.css({ 'backgroundColor': "transparent", "transition": "all .8s" })
                 $("a.navbar-brand img").attr("src", "./assets/img/logo-white.png")
                 $(".nav-link").css({ "color": "rgba(255,255,255,0.9)", "transition": "all .8s" })
+                Nav.css({ "box-shadow": "0px 0px 5px rgba(0,0,0,0)" })
                 $(".fa-shopping-bag").css({ "color": "rgba(255,255,255,0.9)", "transition": "all .5s" })
                 $(".fa-bars").css({ "color": "white" })
             }

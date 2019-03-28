@@ -1,6 +1,7 @@
 body {
     font-family: $ParaFont;
 }
+
 section#Home-container {
     background-image: url("./assets/img/background-home.svg");
     min-height: 100vh;
@@ -9,6 +10,7 @@ section#Home-container {
     background-position: center top;
     background-size: cover;
     padding-bottom: 10px;
+
     div.container {
         div.row {
             div.HomeText {

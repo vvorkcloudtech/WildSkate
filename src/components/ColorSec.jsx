@@ -19,17 +19,21 @@ class ColorSec extends Component {
                             <h6>Select Color</h6>
                             <div>
                                 <label htmlFor="BlackGold"></label>
-                                <input type="radio" name="color" value="0"  onClick={(event =>{this.setState({ProdColor : "BlackGold"});})} defaultChecked id="BlackGold" />
+                                <input type="radio" name="color" value="0" onClick={(event => { this.setState({ ProdColor: "BlackGold" }); })} defaultChecked id="BlackGold" />
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg>
                                 <label htmlFor="Red"></label>
-                                <input type="radio" name="color" id="Red"  onClick={(event =>{this.setState({ProdColor : "red"});})} />
+                                <input type="radio" name="color" id="Red" onClick={(event => { this.setState({ ProdColor: "red" }); })} />
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg>
                                 <label htmlFor="Blue"></label>
-                                <input type="radio" name="color" id="Blue"  onClick={(event =>{this.setState({ProdColor : "blue"});})}/>
+                                <input type="radio" name="color" id="Blue" onClick={(event => { this.setState({ ProdColor: "blue" }); })} />
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg>
                                 <label htmlFor="JetBlack"></label>
-                                <input type="radio" name="color" id="JetBlack" onClick={(event =>{this.setState({ProdColor : "black"});})}/>
+                                <input type="radio" name="color" id="JetBlack" onClick={(event => { this.setState({ ProdColor: "black" }); })} />
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" /></svg>
+                            </div>
+                            <div className="lastSec d-flex flex-row flex-wrap justify-content-between align-items-center">
+                                <span className="Price">$ 349.95</span>
+                                <button>Add To Cart</button>
                             </div>
                         </div>
                     </div>

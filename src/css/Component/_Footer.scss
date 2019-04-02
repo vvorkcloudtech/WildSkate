@@ -1,0 +1,10 @@
+footer{
+    width: 100%;
+    background: linear-gradient(to right, #b51010 0%, #ac004b 100%);
+    span{
+        color: white;
+        font-family: $HeadFont;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+}

@@ -1,0 +1,148 @@
+section#FeatureSec {
+    width: 100%;
+    overflow-y:hidden; 
+    p {
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: 500;
+        color: black;
+
+        span {
+            font-weight: 900 !important;
+            letter-spacing: .5px;
+            margin-right: 5px;
+            color: #b1082e;
+            border-top: 3px solid #b1082e;
+            padding-top: 3px;
+        }
+    }
+
+    div.slides {
+        margin-top: 30px;
+
+        div.carousel-slider {
+            height: auto;
+            overflow: visible;
+            margin-bottom: 30px;
+            div.slider-wrapper {
+                height: auto;
+                border-radius: 20px;
+                background-size: 400%;
+                animation: Gradient 2s linear infinite;
+                background: linear-gradient(-120deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+            }
+
+            ul.slider {
+
+                li {
+                    background-color: transparent;
+                }
+
+                img {
+                    padding-top: 10px;
+                    max-height: 520px;
+                    max-width: 500px;
+                }
+            }
+
+            ul.control-dots {
+                top: 100%;
+                li {
+                    background-color: #b51010;
+                    outline: none;
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+
+    div.row {
+        div.Content {
+            div.w-100 {
+
+                [class^="flaticon-"]:before,
+                [class*=" flaticon-"]:before,
+                [class^="flaticon-"]:after,
+                [class*=" flaticon-"]:after {
+                    text-align: center;
+                    font-size: 50px;
+                    margin-left: 0;
+                    line-height: 45px;
+                }
+                i {
+                    cursor: pointer;
+                    padding: 15px 16px 17px 17px;
+                    color: #ac004b;
+                    border-radius: 50%;
+                    border: 2px solid #b51010;
+                }
+
+                i:hover {
+                    background-size: 400%;                    
+                    color: whitesmoke;
+                    background: linear-gradient(-120deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+                }
+                div.TextContent{
+                    margin-left: 10px;
+                    p{
+                        line-height: 27px;
+                        font-size: 15px;
+                        letter-spacing: 1px;
+                        margin: 10px 0;
+                        max-width: 50ch;
+                        font-family: $HeadFont;
+                    }
+                    h5{
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes Gradient {
+    10% {
+        background: linear-gradient(-150deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    20% {
+        background: linear-gradient(-180deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    30% {
+        background: linear-gradient(-210deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    40% {
+        background: linear-gradient(-240deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    50% {
+        background: linear-gradient(-270deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    60% {
+        background: linear-gradient(-300deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    70% {
+        background: linear-gradient(-330deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    80% {
+        background: linear-gradient(-360deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    90% {
+        background: linear-gradient(-390deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+
+    100% {
+        background: linear-gradient(-420deg, #ac004b, #b51010, #ac004b, #b51010, #ac004b);
+    }
+}

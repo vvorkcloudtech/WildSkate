@@ -1,7 +1,12 @@
 nav.navbar {
     width: 100%;
     padding: 10px 0;
+    // position: relative;
+    z-index: 6;
     div {
+        div.collapse{
+            margin-top: 0;
+        }
         button {
             outline: none;
 
@@ -22,9 +27,9 @@ nav.navbar {
                 a {
                     font-family: $HeadFont;
                     color: white;
-                    font-weight: 600;
+                    font-weight: 700;
                     letter-spacing: 1px;
-                    font-size: 15px;
+                    font-size: 16px;
                     border-bottom: 0px solid;
                     transition: all 1s;
                 }

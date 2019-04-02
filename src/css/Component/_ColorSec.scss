@@ -1,10 +1,10 @@
 section#ColorSec {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('./assets/img/section-bg-color.png');
     background-position: 0;
     background-size: cover;
-
+    height:auto;
     div.container {
         div.row {
             padding: 40px 0;
@@ -108,6 +108,7 @@ section#ColorSec {
                     span.Price {
                         font-size: 34px;
                         margin: 10px 0;
+                        background-color: transparent;
                     }
 
                     button {

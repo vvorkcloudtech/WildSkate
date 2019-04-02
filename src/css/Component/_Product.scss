@@ -1,0 +1,47 @@
+section#Product {
+    width: 100%;
+    background-image: url("./assets/img/section-bg-shop.png");
+    background-size: cover;
+    background-position: center;
+
+    div.row {
+        padding-top: 120px;
+        user-select: none;
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            height: 480px;
+            div.content {
+                border-radius: 5px;
+                width: 350px;
+                height: 260px;
+                box-shadow: -0px 0px 10px rgba($color: #000000, $alpha: 0.2);
+                background-color: white;
+
+                img {
+                    margin-top: -200px;
+                    cursor: pointer;
+                }
+
+                h3 {
+                    font-family: $HeadFont;
+                    letter-spacing: 1px;
+                    color: #b1082e;
+                    font-size: 25px;
+                    margin: 20px 0;
+                    font-weight: 500;
+                }
+
+                h2 {
+                    color: #b1082e;
+                    font-weight: 700;
+                    font-weight: $HeadFont;
+                    letter-spacing: 2px;
+                    text-shadow: 0 0 2px rgba(-10px, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+}

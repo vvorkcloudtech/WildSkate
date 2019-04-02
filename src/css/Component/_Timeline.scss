@@ -1,0 +1,47 @@
+section#TimelineSec {
+    width: 100%;
+    height: auto !important;
+    padding: 50px 0;
+    box-sizing: content-box;
+    // min-height: 310vh;
+    h1 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: .8px;
+        word-spacing: 1px;
+        font-family: $HeadFont;
+
+        span {
+            border-top: 3px solid #b1082e;
+            font-weight: 900;
+            color: #b1082e;
+        }
+    }
+
+    p {
+        color: #999;
+        letter-spacing: 1px;
+        margin: 20px 0;
+    }
+    div{
+        height: auto;
+        min-height: 480px;
+        div{
+            width: 100%;
+            h1{
+                color: #b1082e;
+                font-family: $HeadFont;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                margin:10px 10px;
+                line-height: 28px;
+            }
+            img{
+                width: 100%;
+                max-height: 480px;
+            }
+        }
+    }
+}
